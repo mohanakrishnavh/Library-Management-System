@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="LibraryManagementSystem.jnlp">
+  <information>
+    <title>LibraryManagementSystem</title>
+    <vendor>Mohanakrishna</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="LibraryManagementSystem.jar" size="29116" download="eager" />
+    <jar href="lib\activation.jar" size="56290" download="eager" />
+    <jar href="lib\javax.mail-api-1.5.6.jar" size="204312" download="eager" />
+    <jar href="lib\javax.mail.jar" size="608084" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.41-bin.jar" size="992808" download="eager" />
+  </resources>
+  <application-desc main-class="librarymanagementsystem.MainJFrame"  name="LibraryManagementSystem" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>
